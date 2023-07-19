@@ -3,7 +3,7 @@ A repository for automation scripts no one asked for.
 
 # explanations
 
-## [./write_is_even.py](is even)
+## [Write isEven](./write_is_even.py)
 
 takes a number N and prints out a C++ code that takes a number E and returns if E is true or false.
 
