@@ -20,4 +20,6 @@ def writeIsEven(N):
     
 if __name__ == "__main__":
     N = int(input("Enter N "))
-    print("private bool isEv
+    print("private bool isEven(int N) {")
+    writeIsEven(N)
+    print("}")
