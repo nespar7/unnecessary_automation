@@ -1,9 +1,9 @@
-def writeIsEven(N):
+def writeIsEven(file, N):
     if N <= 1:
-        print("go flip a switch")
+        file.write("go flip a switch")
         return
     
-    print("\tif(N == 1) return false")
+    file.write("\tif(N == 1) return false")
     
     parityMap = {
         True: "true",
@@ -13,13 +13,15 @@ def writeIsEven(N):
     isEven = True
    
     for i in range(2,N+1):
-        print(f"\telse if(N == {i}) return {parityMap[isEven]}")
+        file.write(f"\telse if(N == {i}) return {parityMap[isEven]}")
         isEven = not isEven
         
-    print("\telse return true")
+    file.write("\telse return true")
     
 if __name__ == "__main__":
     N = int(input("Enter N "))
-    print("private bool isEven(int N) {")
-    writeIsEven(N)
-    print("}")
+    file = open("write_is_even.cpp", "w")
+    file.write("private bool isEven(int N) {")
+    writeIsEven(file, N)
+    file.write("}")
+    file.close()
