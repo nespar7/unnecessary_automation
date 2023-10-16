@@ -10,3 +10,7 @@ A repository for automation scripts no one asked for.
    * algorithm: check if E is equal to each integer from 1 to N and return true or false accordingly.  
 
    * time complexity: O(N)
+
+## [Rectangle to Square image](./rectangle_to_square.py)
+
+  * Takes a rectangle image, makes a square canvas with it's blurred version as the background and pastes the rectangle image on the center. 
