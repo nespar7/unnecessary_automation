@@ -11,6 +11,6 @@ A repository for automation scripts no one asked for.
 
    * time complexity: O(N)
 
-## [Rectangle to Square image](./rectangle_to_square.py)
+## [Rectangle to Square image](./rectangle_to_square_image.py)
 
   * Takes a rectangle image, makes a square canvas with it's blurred version as the background and pastes the rectangle image on the center. 
