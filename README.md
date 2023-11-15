@@ -13,4 +13,5 @@ A repository for automation scripts no one asked for.
 
 ## [Rectangle to Square image](./rectangle_to_square_image.py)
 
+  * Rectangular timetable bad, Need square.
   * Takes a rectangle image, makes a square canvas with it's blurred version as the background and pastes the rectangle image on the center. 
